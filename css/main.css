@@ -506,24 +506,28 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
   }
-  .choose__container {
-    min-width: 375px;
-    margin: 0 auto;
+  .choose__item {
+    padding: 0 4px;
   }
   .choose {
     margin-top: 1690px;
   }
   .choose__inner {
     margin: 0;
+    padding: 0 4px;
+    margin-top: 80px;
   }
   .choose__inner-link {
     max-width: 500px;
+    margin: 0 auto;
     width: 100%;
-    display: inline-block;
+    flex-direction: column;
+    gap: 0;
   }
   .choose__swag {
     display: inline-block;
-    margin: 0 12px;
+    margin: 0;
+    padding: 0 30px;
   }
   .choose__bgi {
     margin: 0;
@@ -545,7 +549,7 @@ body {
   .choose__each {
     font-size: 15px;
     line-height: 25px;
-    margin: 0 auto;
+    padding: 0 34px;
     text-align: center;
     margin-bottom: 51px;
     margin-top: 24px;
