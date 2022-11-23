@@ -85,6 +85,9 @@
         background-repeat: no-repeat;
         margin-top: 40px;
         padding: 0 35px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .sitx-main__conatainer {
@@ -110,5 +113,6 @@
     .hro__link {
         margin-top: 39px;
         margin-bottom: 99px;
+        margin-right: 60px;
     }
 }
