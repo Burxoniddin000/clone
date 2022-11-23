@@ -93,7 +93,6 @@
 @media screen and (max-width:997px) {
     .choose__container {
         background-image: url(../../img/Bitmap2.png);
-        background-size: 100%;
         background-repeat: no-repeat;
     }
 
@@ -103,7 +102,7 @@
 
     .choose__inner {
         display: inline-block;
-        margin: 0 48px;
+       margin: 0;
     }
 
     .choose__inner-link+.choose__inner-link {
@@ -126,7 +125,7 @@
     }
 
     .choose__inner-link {
-        max-width: 573px;
+        max-width: 600px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -171,6 +170,7 @@
 @media screen and (max-width:735px) {
     .choose__container {
         background-image: url(../../img/Bitmap3.png);
+        height: 902px;
         background-size: 100%;
         background-repeat: no-repeat;
     }
@@ -186,7 +186,7 @@
     .choose__inner {
         margin: 0;
         padding: 0 4px;
-        margin-top: 80px;
+        margin-top: 40px;
     }
 
     .choose__inner-link {
@@ -200,7 +200,7 @@
     .choose__swag {
         display: inline-block;
         margin: 0;
-        padding: 0 30px;
+        padding: 0 50px;
     }
 
     .choose__bgi {
