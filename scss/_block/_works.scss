@@ -136,7 +136,7 @@
     }
 
     .works{
-        margin-top: 675px;
+        padding-top: 675px;
     }
 
     .works__how {
@@ -180,5 +180,13 @@
     .works__link {
         margin-top: 79px;
         margin-bottom: 120px;
+    }
+
+
+    @media screen and (max-width:360px) {
+        .works{
+            margin-top: 260px;
+            z-index: -1;
+        }
     }
 }

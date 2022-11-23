@@ -207,6 +207,7 @@ body {
     line-height: 40px;
     max-width: 279px;
     padding-top: 100px;
+    margin: 0;
   }
   .hro__taxt {
     font-size: 15px;
@@ -217,7 +218,6 @@ body {
   .hro__link {
     margin-top: 39px;
     margin-bottom: 99px;
-    margin-right: 60px;
   }
 }
 .gran {
@@ -356,6 +356,7 @@ body {
 
 .choose {
   margin-top: 530px;
+  margin-bottom: 200px;
 }
 
 .choose__why {
@@ -443,6 +444,7 @@ body {
   }
   .choose {
     margin-top: 1014px;
+    margin-bottom: 144px;
   }
   .choose__inner {
     display: inline-block;
@@ -511,6 +513,7 @@ body {
   }
   .choose {
     margin-top: 1690px;
+    margin-bottom: 120px;
   }
   .choose__inner {
     margin: 0;
@@ -690,7 +693,7 @@ body {
     text-align: center;
   }
   .works {
-    margin-top: 675px;
+    padding-top: 675px;
   }
   .works__how {
     font-size: 24px;
@@ -726,6 +729,12 @@ body {
   .works__link {
     margin-top: 79px;
     margin-bottom: 120px;
+  }
+}
+@media screen and (max-width: 735px) and (max-width: 360px) {
+  .works {
+    margin-top: 260px;
+    z-index: -1;
   }
 }
 .sitx-footer {
